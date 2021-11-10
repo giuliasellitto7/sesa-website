@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: lightgray;
   font-family: "Open Sans", sans-serif;
   color: white;
 }
@@ -45,11 +45,11 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: white;
   text-transform: uppercase;
 }
 .section-header p {
@@ -58,7 +58,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: white;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -524,6 +524,113 @@ section {
 }
 .intro .box:hover img {
   transform: scale(1);
+}
+
+/*--------------------------------------------------------------
+# Research
+--------------------------------------------------------------*/
+.research .research-box {
+  padding: 24px 20px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+.research .research-box h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.research .research-box i {
+  line-height: 0;
+  background: #ecf3ff;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.research .research-box:hover i {
+  background: #4154f1;
+  color: #fff;
+}
+.research .research-tabs {
+  margin-top: 120px;
+}
+.research .research-tabs h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .research .research-tabs h3 {
+    font-size: 28px;
+  }
+}
+.research .research-tabs .nav-pills {
+  border-bottom: 1px solid #eee;
+}
+.research .research-tabs .nav-link {
+  background: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 12px 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+.research .research-tabs .nav-link.active {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.research .research-tabs .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+.research .research-tabs .tab-content i {
+  font-size: 24px;
+  line-height: 0;
+  margin-right: 8px;
+  color: white;
+}
+.research .research-icons {
+  margin-top: 120px;
+}
+.research .research-icons h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .research .research-icons h3 {
+    font-size: 28px;
+  }
+}
+.research .research-icons .content .icon-box {
+  display: flex;
+}
+.research .research-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: white;
+}
+.research .research-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: white;
+  margin-right: 15px;
+}
+.research .research-icons .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
 }
 
 /*--------------------------------------------------------------
