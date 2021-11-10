@@ -1324,8 +1324,11 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: white;
   padding: 60px 0;
+}
+.team .row {
+  padding-bottom: 30px;
 }
 .team .member {
   overflow: hidden;
@@ -1346,18 +1349,18 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
-  background-size: contain;
+  /*background: url(../img/team-shape.svg) no-repeat center bottom;
+  background-size: contain;*/
   z-index: 1;
 }
 .team .member .social {
   position: absolute;
-  right: -100%;
+  right: 20px;
   top: 30px;
-  opacity: 0;
+  opacity: 1;
   border-radius: 4px;
   transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
+  background: white;
   z-index: 2;
 }
 .team .member .social a {
@@ -1396,14 +1399,8 @@ section {
   line-height: 26px;
   color: #5e5e5e;
 }
-.team .member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-.team .member:hover .social {
-  right: 8px;
-  opacity: 1;
-}
+
+
 
 /*--------------------------------------------------------------
 # Clients
