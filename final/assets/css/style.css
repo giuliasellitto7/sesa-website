@@ -8,14 +8,26 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* titles font */
+@font-face {
+    font-family: "Axis";
+    src: url("../fonts/axis.otf") format("opentype");
+}
+
+/* body font */
+@font-face {
+  font-family: "Banda Regular";
+  src: url("../fonts/banda-regular.otf") format("opentype");
+}
+
 :root {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: lightgray;
-  font-family: "Open Sans", sans-serif;
-  color: white;
+  font-family: "Banda Regular";
+  color: black;
 }
 
 a {
@@ -24,12 +36,13 @@ a {
 }
 
 a:hover {
-  color: #717ff5;
+  color: rgb(100,100,100);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Axis";
+  text-transform: uppercase;
 }
 
 .golden {
@@ -132,6 +145,9 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 4px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2px;
   transition: all 0.4s;
 }
 .back-to-top i {
@@ -140,12 +156,16 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: black;
+  border-color: white;
+  opacity: 1 !important;
+}
+.back-to-top:hover i {
   color: #fff;
 }
 .back-to-top.active {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 /*--------------------------------------------------------------
@@ -206,7 +226,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Axis";
+  text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
   color: white;
@@ -308,7 +329,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: rgba(50, 50, 50, 0.9);
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -457,35 +478,40 @@ section {
 # Education
 --------------------------------------------------------------*/
 .education {
-  background-color: black;
+  background-color: white;
 }
 .education .content {
-  background-color: #f6f9ff;
+  background-color: white;
   padding: 40px;
+}
+.education h1 {
+  color: black;
+  text-transform: uppercase;
 }
 .education h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: black;
   text-transform: uppercase;
 }
 .education h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: black;
 }
 .education p {
   margin: 15px 0 30px 0;
   line-height: 24px;
 }
 .education .btn-read-more {
+  text-transform: uppercase;
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  background: black;
+  box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
 }
 .education .btn-read-more span {
   font-family: "Nunito", sans-serif;
@@ -498,27 +524,40 @@ section {
   font-size: 18px;
   transition: 0.3s;
 }
+.education .btn-read-more:hover{
+  background: rgb(50, 50, 50);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 .education .btn-read-more:hover i {
   transform: translateX(5px);
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: white;
+}
 .about .content {
-  background-color: #f6f9ff;
+  background-color: white;
   padding: 40px;
+}
+.about h1 {
+  color: black;
+  text-transform: uppercase;
 }
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: black;
   text-transform: uppercase;
 }
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: balck;
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -582,21 +621,33 @@ section {
 /*--------------------------------------------------------------
 # Research
 --------------------------------------------------------------*/
+.research {
+  background-color: black;
+}
+.research h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.research p {
+  color: white;
+}
 .research .research-box {
+  border-radius: 4px;
+  background-color: white;
   padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(200, 200, 200, 0.3);
   transition: 0.3s;
   height: 100%;
 }
 .research .research-box h3 {
   font-size: 18px;
-  color: white;
+  color: black;
   font-weight: 700;
   margin: 0;
 }
 .research .research-box i {
   line-height: 0;
-  background: #ecf3ff;
+  background: white;
   padding: 4px;
   margin-right: 10px;
   font-size: 24px;
@@ -604,8 +655,14 @@ section {
   transition: 0.3s;
 }
 .research .research-box:hover i {
-  background: #4154f1;
+  background: rgb(50, 50, 50);
   color: #fff;
+}
+
+.research .research-box:hover {
+  background: rgba(250, 250, 250, 0.8);
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .research .research-tabs {
   margin-top: 120px;
@@ -1378,7 +1435,7 @@ section {
 --------------------------------------------------------------*/
 
 .team {
-  background: white;
+  /*background: white;*/
   padding: 60px 0;
 }
 .team .row {
@@ -1389,9 +1446,13 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  background: rgb(15, 15, 15);
+  box-shadow: 0px 0 30px rgba(15, 15, 15, 0.1);
   transition: 0.3s;
+}
+.team .member:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .team .member .member-img {
   position: relative;
@@ -1415,13 +1476,13 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #012970;
+  color: white;
 }
 .team .member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: white;
 }
 .team .member .member-info p {
   font-size: 16px;
@@ -1429,13 +1490,14 @@ section {
   padding-bottom: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
-  color: #5e5e5e;
+  color: white;
 }
 .team .member .member-info p a {
   padding: 0px 5px;
 }
 .team .member .member-info .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+  color: #5e5e5e;
+  /*color: rgba(1, 41, 112, 0.8);*/
 }
 
 
@@ -1524,18 +1586,23 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
+  border-radius: 4px;
   color: #444444;
   background: #fafbff;
   padding: 30px;
 }
+.contact .info-box:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: black;
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: black;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2051,7 +2118,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: black;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2192,11 +2259,11 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: white;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: white;
 }
