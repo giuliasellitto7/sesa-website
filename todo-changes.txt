@@ -2,7 +2,7 @@
 
 2. In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento. Che ne pensate?
 
-3. Nell'About, metterei solo dei link alle pagine menzionate. Ad esempio, "in the Teaching area of the website" lo metterei con Teaching che rimanda alla pagina dedicata.
+FATTO 3. Nell'About, metterei solo dei link alle pagine menzionate. Ad esempio, "in the Teaching area of the website" lo metterei con Teaching che rimanda alla pagina dedicata.
 
 4. Nel Team, converrebbe mettere anche gli Alumni (solo come lista, senza foto). 
 Asad Ali (PhD in Computer Science – advisor Carmine Gravino)
@@ -19,10 +19,12 @@ Pasquale Salza (Master degree in Computer Science and PhD in Management and Info
 Federica Sarro (Master degree and PhD in Computer Science – advisor Filomena Ferrucci)
 Simone Scalabrino (Master degree in Computer Science - advisor Andrea De Lucia)
 Michele Tufano (Master degree in Computer Science – advisor Andrea De Lucia)
+le altre info le trovi qui: https://docenti.unisa.it/005637/ricerca/laboratori?id=131
 
 5. In Research, varrebbe la pena mettere anche qualcosa relativo alle "Collaborations"? Tipo una lista di immagini dei loghi delle università? Così da fare vedere che siamo internazionali?
 meglio le uni, magari con la bandierina della nazione affianco, piuttosto che una lunga lista di nomi
 (toglierei Delft University of Technology)
+https://docs.google.com/document/d/1Vfy-7b8XpGutyWSrNk-VN6SPR81EPklqoEAQeQuu8Zg/edit#
 
 -- phd students due righe (36 e 37 ciclo)
 
