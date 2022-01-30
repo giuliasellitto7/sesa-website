@@ -1124,15 +1124,24 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+.faq .accordion-item {
+  background-color: transparent;
+}
+.faq .accordion-header {
+  background-color: transparent;
+}
 .faq .accordion-collapse {
   border: 0;
 }
 .faq .accordion-button {
+  font-family: "Axis";
+  text-transform: uppercase;
+  background-color: transparent;
   padding: 15px 15px 20px 0;
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: black;
   text-align: left;
 }
 .faq .accordion-button:focus {
