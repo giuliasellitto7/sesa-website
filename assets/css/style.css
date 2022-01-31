@@ -514,7 +514,7 @@ section {
   box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
 }
 .education .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Axis";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -533,12 +533,73 @@ section {
   transform: translateX(5px);
 }
 
+/*--------------------------------------------------------------
+# ISSSE
+--------------------------------------------------------------*/
+.issse {
+  padding: 0;
+  background-color: black;
+}
+.issse .content {
+  background-color: black;
+  padding: 40px;
+}
+.issse h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.issse h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+.issse h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.issse p {
+  color: white;
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+.issse .btn-read-more {
+  text-transform: uppercase;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: black;
+  background: white;
+  box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
+}
+.issse .btn-read-more span {
+  font-family: "Axis";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.issse .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.issse .btn-read-more:hover{
+  background: rgb(200, 200, 200);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.issse .btn-read-more:hover i {
+  transform: translateX(5px);
+}
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
   background-color: white;
+  padding-bottom: 0;
 }
 .about .content {
   background-color: white;
