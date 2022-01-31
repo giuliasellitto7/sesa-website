@@ -35,6 +35,6 @@ FATTO-- togliere template dal footer
 -- Qualche idea per rendere la parte research meno triste?
 Troppo bianco/nero/grigio
 
---Ah prima che mi scordo, qualcuno ad un certo punto farà notare che nel sito manca una sezione per la summer school 🙄 conviene prevederla e linkare al sito della scuola più recente (che a breve invio)
+--Ah prima che mi scordo, nel sito manca una sezione per la summer school.. conviene prevederla e linkare al sito della scuola più recente (che a breve invio)
 https://sites.google.com/view/issse2021/home
 
