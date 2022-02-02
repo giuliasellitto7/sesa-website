@@ -1511,6 +1511,9 @@ section {
 .team .row {
   padding-bottom: 30px;
 }
+.team h2 {
+  color: black;
+}
 .team .member {
   width: fit-content;
   overflow: hidden;
