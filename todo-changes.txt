@@ -21,7 +21,7 @@ https://docs.google.com/document/d/1Vfy-7b8XpGutyWSrNk-VN6SPR81EPklqoEAQeQuu8Zg/
 FATTO 3. Nell'About, metterei solo dei link alle pagine menzionate. Ad esempio, "in the Teaching area of the website" lo metterei con Teaching che rimanda alla pagina dedicata.
 
 
-TODO 4. Nel Team, converrebbe mettere anche gli Alumni (solo come lista, senza foto). 
+FATTO 4. Nel Team, converrebbe mettere anche gli Alumni (solo come lista, senza foto). 
 Asad Ali (PhD in Computer Science – advisor Carmine Gravino)
 Gabriele Bavota (Master degree and PhD in Computer Science – advisor Andrea De Lucia)
 Gemma Catolino (Master degree in Management and Information Technology and PhD in Computer Science – advisor Filomena Ferrucci)
@@ -55,6 +55,7 @@ FATTO --email sesalab@unisa.it
 
 TODO --back to research nella pagina di education
 
+TODO -- check e fixare tutte le tooltip: forse non si vedono su mobile
 
 TODO FINAL: mettere online e adv insta e twitter
 

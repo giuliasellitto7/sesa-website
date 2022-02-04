@@ -65,6 +65,7 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
+  padding-top: 40px;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1572,17 +1573,25 @@ section {
   color: #5e5e5e;
   /*color: rgba(1, 41, 112, 0.8);*/
 }
-
+.alumni .name {
+  font-family: "Axis";
+  text-transform: uppercase;
+}
 
 /*--------------------------------------------------------------
-# Clients
+# Collaborations
 --------------------------------------------------------------*/
-.clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
+.clients {
+background-color: white;
+color: black;
+padding-top: 0;
 }
-.clients .clients-slider .swiper-slide img:hover {
+.clients h2 {
+  color: black;
+}
+.clients .clients-slider .swiper-slide img {
   opacity: 1;
+  transition: 0.3s;
 }
 .clients .clients-slider .swiper-pagination {
   margin-top: 20px;
@@ -1591,12 +1600,12 @@ section {
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: rgb(200,200,200);
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid rgb(200,200,200);
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
