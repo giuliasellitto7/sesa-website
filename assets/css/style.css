@@ -684,24 +684,26 @@ section {
 # Research
 --------------------------------------------------------------*/
 .research {
-  background-color: black;
+  background-color: white;
 }
 .research h1 {
-  color: white;
+  color: black;
   text-transform: uppercase;
 }
 .research p {
-  color: white;
+  color: black;
 }
 .research .research-box {
   border-radius: 4px;
-  background-color: white;
+  background-color: rgb(200, 200, 200);
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(200, 200, 200, 0.3);
   transition: 0.3s;
   height: 100%;
 }
 .research .research-box h3 {
+  /*text-transform: none;
+  font-family: "Banda Regular";*/
   font-size: 18px;
   color: black;
   font-weight: 700;

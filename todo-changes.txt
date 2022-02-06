@@ -1,64 +1,27 @@
-FATTO 1. Nel Team, dividerei in tre i membri: (1) Faculty Members; (2) Research Associates o Research Fellows; e (3) Ph.D. Students. 
--- phd students due righe (36 e 37 ciclo)
+dal sesa meeting 04/02:
+stefano: rules su discrod
+giamm: sistemare github 
+c'è l'organizzazione sesa (il cui proprietario è l'account sesalab?) 
+poi nell'organizzazione c'è il team admin (noi) e tutti gli altri visitatori sono guest
+nell'organizzazione abbiamo diverse repo/sezioni:
+1) education in cui mettiamo repo utili per i corsi, template per scrivere la tesi, collezione di tesi passate
+2) research in cui pubblichiamo i tool o altre cose lato ricerca
+
+io: linkare github nel sito
+sistemare gdrive
 
 
--- Qualche idea per rendere la parte research meno triste?
-Troppo bianco/nero/grigio
-TODO --Magari possiamo accorpare "SOftware Processes" e "Workflow Management" in "Software PRoject Management" e per non perdere il rettangolo perfetto creato dal numero di argomenti, potremmo aggiungere la sezione sulle disabilità che stiamo cercando di portare in auge con giulia
-Metti "Software Engineering Education and Training" nel caso
-come la track di ICSE
-Potresti anche togliere "REVERSE ENGINEERING AND SOURCE CODE ANALYSIS" e mettere "Green Software Engineering"
-Source code analysis è integrato in quasi tutte le altre tematiche.
-TODO 2. In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento. Che ne pensate? (low priority)
-
-
-TODO DOING 5. In Research, varrebbe la pena mettere anche qualcosa relativo alle "Collaborations"? Tipo una lista di immagini dei loghi delle università? Così da fare vedere che siamo internazionali?
-meglio le uni, magari con la bandierina della nazione affianco, piuttosto che una lunga lista di nomi
-(toglierei Delft University of Technology)
-https://docs.google.com/document/d/1Vfy-7b8XpGutyWSrNk-VN6SPR81EPklqoEAQeQuu8Zg/edit#
-
-
-FATTO 3. Nell'About, metterei solo dei link alle pagine menzionate. Ad esempio, "in the Teaching area of the website" lo metterei con Teaching che rimanda alla pagina dedicata.
-
-
-FATTO 4. Nel Team, converrebbe mettere anche gli Alumni (solo come lista, senza foto). 
-Asad Ali (PhD in Computer Science – advisor Carmine Gravino)
-Gabriele Bavota (Master degree and PhD in Computer Science – advisor Andrea De Lucia)
-Gemma Catolino (Master degree in Management and Information Technology and PhD in Computer Science – advisor Filomena Ferrucci)
-Fausto Fasano (Master degree and PhD in Computer Science – advisor Andrea De Lucia)
-Giovanni Grano (Master degree in Computer Science - advisor Andrea De Lucia)
-Rocco Oliveto (Master degree and PhD in Computer Science – advisor Andrea De Lucia)
-Annibale Panichella (Master degree and PhD in Computer Science – advisor Andrea De Lucia)
-Sebastiano Panichella (Master degree in Computer Science – advisor Andrea De Lucia)
-Fabiano Pecorelli (Bachelor degree, Master degree, and PhD in Computer Science – advisor Andrea De Lucia)
-Abdallah Qusef (PhD in Computer Science – advisor Andrea De Lucia)
-Pasquale Salza (Master degree in Computer Science and PhD in Management and Information Technology – advisor Filomena Ferrucci)
-Federica Sarro (Master degree and PhD in Computer Science – advisor Filomena Ferrucci)
-Simone Scalabrino (Master degree in Computer Science - advisor Andrea De Lucia)
-Michele Tufano (Master degree in Computer Science – advisor Andrea De Lucia)
-le altre info le trovi qui: https://docenti.unisa.it/005637/ricerca/laboratori?id=131
-
-
-FATTO -- togliere open hours dai contatti e sistemare layout nella dimensione tablet 
-
-
-FATTO-- togliere template dal footer 
-
-
-FATTO --Ah prima che mi scordo, nel sito manca una sezione per la summer school.. conviene prevederla e linkare al sito della scuola più recente (che a breve invio)
-https://sites.google.com/view/issse2021/home
-
-
-FATTO --email sesalab@unisa.it
--- coordinarsi con dario per account sesalab@unisa.it -- c'è la possibilità di dare una delega (?)
-
+TODO -- (low priority) In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento.
+TODO -- (low priority) Icons on research topic cards
 
 TODO --back to research nella pagina di education
 
 TODO -- check e fixare tutte le tooltip: forse non si vedono su mobile
 
 TODO FINAL: mettere online e adv insta e twitter
+TODO FINAL quando è pronta la parte education: adv su insta con meme
 
 further ideas 
--- feed twitter? (no insta e tiktok)
+-- feed twitter? (no insta e tiktok) 
 -- 1-minute self introduction video 
+-- thesis circle con seminari
