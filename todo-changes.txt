@@ -1,15 +1,7 @@
-dal sesa meeting 04/02:
-stefano: rules su discrod
-giamm: sistemare github 
-c'è l'organizzazione sesa (il cui proprietario è l'account sesalab?) 
-poi nell'organizzazione c'è il team admin (noi) e tutti gli altri visitatori sono guest
-nell'organizzazione abbiamo diverse repo/sezioni:
-1) education in cui mettiamo repo utili per i corsi, template per scrivere la tesi, collezione di tesi passate
-2) research in cui pubblichiamo i tool o altre cose lato ricerca
+TODO rendere tutto dinamico (es: collaborations in un file tipo db)
 
-io: linkare github nel sito
+linkare github nel sito
 sistemare gdrive
-
 
 TODO -- (low priority) In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento.
 TODO -- (low priority) Icons on research topic cards
