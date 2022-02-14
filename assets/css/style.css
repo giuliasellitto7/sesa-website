@@ -1,6 +1,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Colors */
+:root {
+--manatee-1: #8f97a6ff;
+--platinum-2: #e8e4e1ff;
+--raisin-black-3: #1d2331ff;
+--raisin-black-darker-4: #171c28ff;
+--dark-electric-blue-5: #4c6580ff;
+--blue-yonder-6: #4b79aaff;
+--little-boy-blue-7: #6ba3eaff;
+--french-sky-blue-8: #92b5ecff;
+}
 /* titles font */
 @font-face {
     font-family: "Axis";
@@ -18,31 +29,24 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: var(--platinum-2);
   font-family: "Banda Regular";
-  color: black;
+  color: var(--raisin-black-3);
 }
 
 a {
-  color: gray;
+  color: var(--blue-yonder-6);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(100,100,100);
+  color: var(--little-boy-blue-7);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Axis";
   text-transform: uppercase;
-}
-
-.golden {
-  background-image: url(../img/golden.jpg);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /*--------------------------------------------------------------

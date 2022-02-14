@@ -1,3 +1,5 @@
+TODO colori nuova palette
+
 TODO rendere tutto dinamico (es: collaborations in un file tipo db)
 
 linkare github nel sito
