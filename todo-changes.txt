@@ -1,5 +1,7 @@
 TODO colori nuova palette
 
+TODO loghi collaborazioni: tutti della stessa size e scontornati :')
+
 TODO rendere tutto dinamico (es: collaborations in un file tipo db)
 
 linkare github nel sito

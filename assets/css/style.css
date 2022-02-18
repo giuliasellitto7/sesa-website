@@ -3,14 +3,14 @@
 --------------------------------------------------------------*/
 /* Colors */
 :root {
---manatee-1: #8f97a6ff;
---platinum-2: #e8e4e1ff;
---raisin-black-3: #1d2331ff;
---raisin-black-darker-4: #171c28ff;
---dark-electric-blue-5: #4c6580ff;
---blue-yonder-6: #4b79aaff;
---little-boy-blue-7: #6ba3eaff;
---french-sky-blue-8: #92b5ecff;
+  --sesa-gray: #8f97a6ff;
+  --sesa-white: #e8e4e1ff;
+  --sesa-dark: #1d2331ff;
+  --sesa-darker: #171c28ff;
+  --sesa-gray-blue: #4c6580ff;
+  --sesa-blue: #4b79aaff;
+  --sesa-light-blue: #6ba3eaff;
+  --sesa-white-blue: #92b5ecff;
 }
 /* titles font */
 @font-face {
@@ -29,18 +29,18 @@
 }
 
 body {
-  background-color: var(--platinum-2);
+  background-color: var(--sesa-white);
   font-family: "Banda Regular";
-  color: var(--raisin-black-3);
+  color: var(--sesa-dark);
 }
 
 a {
-  color: var(--blue-yonder-6);
+  color: var(--sesa-blue);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--little-boy-blue-7);
+  color: var(--sesa-light-blue);
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: white;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 .section-header p {
@@ -76,57 +76,13 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: white;
+  color: var(--sesa-white);
 }
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
     line-height: 32px;
   }
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #012970;
-  min-height: 40px;
-  margin-top: 82px;
-  color: #fff;
-}
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 57px;
-  }
-}
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-.breadcrumbs ol a {
-  color: #fff;
-  transition: 0.3s;
-}
-.breadcrumbs ol a:hover {
-  text-decoration: underline;
-}
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #8894f6;
-  content: "/";
 }
 
 /*--------------------------------------------------------------
@@ -139,27 +95,27 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: white;
+  background: var();
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  border-color: black;
+  border-color: var(--sesa-dark);
   border-style: solid;
   border-width: 0.2px;
   transition: all 0.4s;
 }
 .back-to-top i {
   font-size: 24px;
-  color: black;
+  color: var(--sesa-dark);
   line-height: 0;
 }
 .back-to-top:hover {
-  background: black;
-  border-color: white;
+  background: var(--sesa-dark);
+  border-color: var(--sesa-white);
   opacity: 1 !important;
 }
 .back-to-top:hover i {
-  color: #fff;
+  color: var(--sesa-white);
 }
 .back-to-top.active {
   visibility: visible;
@@ -178,8 +134,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: black;
-  
+  background: var(--sesa-dark);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -195,8 +150,8 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: white;
-  font-family: "Nunito", sans-serif;
+  color: var(--sesa-white);
+  font-family: "Axis";
   margin-top: 3px;
 }
 
@@ -228,7 +183,7 @@ section {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
-  color: white;
+  color: var(--sesa-white);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -238,7 +193,7 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: gray;
+  color: var(--sesa-light-blue);
 }
 
 .navbar .dropdown ul {
@@ -251,8 +206,8 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: white;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: var(--sesa-white);
+  box-shadow: 0px 0px 30px var(--sesa-gray);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -269,7 +224,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: gray;
+  color: var(--sesa-gray);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -536,10 +491,10 @@ section {
 --------------------------------------------------------------*/
 .issse {
   padding: 0;
-  background-color: black;
+  background-color: var(--sesa-dark);
 }
 .issse .content {
-  background-color: black;
+  background-color: var(--sesa-dark);
   padding: 40px;
 }
 .issse h1 {
@@ -596,27 +551,27 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: white;
+  background-color: var(--sesa-white);
   padding-bottom: 0;
 }
 .about .content {
-  background-color: white;
+  background-color: var(--sesa-white);
   padding: 40px;
 }
 .about h1 {
-  color: black;
+  color: var(--sesa-dark);
   text-transform: uppercase;
 }
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: black;
+  color: var(--sesa-dark);
   text-transform: uppercase;
 }
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: balck;
+  color: var(--sesa-dark);
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -650,7 +605,7 @@ section {
 # Intro
 --------------------------------------------------------------*/
 .intro {
-  background-color: black;
+  background-color: var(--sesa-gray-blue);
 }
 .intro .box {
   padding: 30px;
@@ -681,10 +636,10 @@ section {
 # Research
 --------------------------------------------------------------*/
 .research {
-  background-color: white;
+  background-color: var(--sesa-gray);
 }
 .research h1 {
-  color: black;
+  color: var(--sesa-dark);
   text-transform: uppercase;
 }
 .research p {
@@ -702,7 +657,7 @@ section {
   /*text-transform: none;
   font-family: "Banda Regular";*/
   font-size: 18px;
-  color: black;
+  color: var(--sesa-dark);
   font-weight: 700;
   margin: 0;
 }
@@ -1512,14 +1467,14 @@ section {
   padding-bottom: 30px;
 }
 .team h2 {
-  color: black;
+  color: var(--sesa-dark);
 }
 .team .member {
   width: fit-content;
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: rgb(15, 15, 15);
+  background: var(--sesa-darker);
   box-shadow: 0px 0 30px rgba(15, 15, 15, 0.1);
   transition: 0.3s;
 }
@@ -1581,12 +1536,25 @@ section {
 # Collaborations
 --------------------------------------------------------------*/
 .clients {
-background-color: white;
-color: black;
+background-color: var(--sesa-gray);
+color: var(--sesa-dark);
 padding-top: 0;
 }
 .clients h2 {
-  color: black;
+  color: var(--sesa-dark);
+}
+.clients .clients-slider .swiper-slide {
+  border-radius: 4px;
+  background-color: rgb(200, 200, 200);
+  padding: 24px 20px;
+  box-shadow: 0px 0 30px rgba(200, 200, 200, 0.3);
+  transition: 0.3s;
+  height: 100%;
+}
+.clients .clients-slider .swiper-slide:hover {
+  background: rgba(250, 250, 250, 0.8);
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 .clients .clients-slider .swiper-slide img {
   opacity: 1;
@@ -1599,12 +1567,13 @@ padding-top: 0;
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgb(200,200,200);
+  background-color: var(--sesa-dark);
   opacity: 1;
-  border: 1px solid rgb(200,200,200);
+  border: 1px solid var(--sesa-dark);
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: black;
+  background-color: var(--sesa-white);
+  border: 1px solid var(--sesa-white);
 }
 
 /*--------------------------------------------------------------
@@ -1668,8 +1637,8 @@ padding-top: 0;
 --------------------------------------------------------------*/
 .contact .info-box {
   border-radius: 4px;
-  color: #444444;
-  background: #fafbff;
+  color: var(--sesa-dark);
+  background: rgb(200, 200, 200);
   padding: 30px;
 }
 .contact .info-box:hover {
@@ -1679,11 +1648,11 @@ padding-top: 0;
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: black;
+  color: var(--sesa-dark);
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: black;
+  color: var(--sesa-dark);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2199,7 +2168,7 @@ padding-top: 0;
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: black;
+  background: var(--sesa-dark);
   padding: 0 0 30px 0;
   font-size: 14px;
 }
