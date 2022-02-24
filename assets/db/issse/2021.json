@@ -1,0 +1,48 @@
+{
+    "edition":15,
+    "year":2021,
+    "venue":"Virtual Event",
+    "startdate": {
+        "day":6,
+        "month":7
+    },
+    "enddate": {
+        "day":15,
+        "month":7
+    },
+    "intro":"The International Summer School on Software Engineering (ISSSE 2021) aims at providing a forum to let Master and fresh Ph.D. students get in touch with top Software Engineering scholars and the research they pursue. The school is at its 15th edition and typically attracts around 30-40 Ph.D. students from all around the world.",
+    "lecturers": [
+        {
+            "name":"Rick",
+            "surname": "Kazman",
+            "affiliation": "University of Hawaii, USA",
+            "title": "Finding and Fixing Design Debt"
+        },
+        {
+            "placeholder": "other speakers' data..."
+        }
+    ],
+    "organization": {
+        "school co-chairs": [
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "placeholder": "other chairs' data..."
+            }
+        ],
+        "publicity co-chairs": [
+            {
+                "name":"Michele",
+                "surname": "Risi",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "placeholder": "other chairs' data..."
+            }
+        ],
+        "placeholder": "other committee..."
+    }
+}
