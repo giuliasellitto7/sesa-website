@@ -1,23 +1,26 @@
-TODO colori nuova palette
+TODO colori nuova palette --- refactored style.css fino a un certo punto
 
-TODO loghi collaborazioni: tutti della stessa size e scontornati :')
+TODO issse
 
-TODO rendere tutto dinamico (es: collaborations in un file tipo db)
+TODO about testo giustificato
 
-linkare github nel sito
-sistemare gdrive
+TODO card del team prendono troppo spazio su mobile
 
-TODO -- (low priority) In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento.
-TODO -- (low priority) Icons on research topic cards
+TODO collaborazioni
 
-TODO --back to research nella pagina di education
+TODO education (ricorda pulsante back to research)
 
-TODO -- check e fixare tutte le tooltip: forse non si vedono su mobile
+TODO rendere tutto meno hard-coded? (es: collaborations in un file -- tipo db)
 
-TODO FINAL: mettere online e adv insta e twitter
-TODO FINAL quando è pronta la parte education: adv su insta con meme
+TODO linkare github, twitter, insta e tiktok nel sito (magari in basso, prima dei contatti, una parte "social" con anche il feed twitter, sarebbe carino anche pubblicare le slide di overview delle pubblicazioni)
+
+TODO check e fixare tutte le tooltip: forse non si vedono su mobile
+
+TODO FINAL quando è pronta la parte education in italiano: adv su insta con meme
+
+TODO (low priority) In Research, potremmo magari fare che, al click su uno dei topic o tramite un pulsantino "+" in alto a destra di ogni quadrato, venga visualizzato un popup che fornisce un mini-abstract dell'argomento.
+
+TODO (low priority) Icons on research topic cards
 
 further ideas 
--- feed twitter? (no insta e tiktok) 
--- 1-minute self introduction video 
--- thesis circle con seminari
+-- 1-minute self introduction video
