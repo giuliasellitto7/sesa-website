@@ -21,7 +21,7 @@
         {
             "name":"Paolo",
             "surname": "Ciancarini",
-            "affiliation": "Università di Bologna, Italy",
+            "affiliation": "University of Bologna, Italy",
             "title": "Agent-Oriented Software Engineering"
         },
         {
@@ -33,7 +33,7 @@
         {
             "name":"Carlo",
             "surname": "Montangero",
-            "affiliation": "Università di Pisa, Italy",
+            "affiliation": "University of Pisa, Italy",
             "title": "UML and Formal System Verification"
         },
         {
@@ -45,7 +45,7 @@
         {
             "name":"Giuseppe",
             "surname": "Visaggio",
-            "affiliation": "Università di Bari, Italy",
+            "affiliation": "University of Bari, Italy",
             "title": "Empirical Experimentation in Software Engineering"
         }
     ],
