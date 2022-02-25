@@ -16,37 +16,43 @@
             "name":"Keith",
             "surname": "Bennett",
             "affiliation": "University of Durham, UK",
-            "title": "Web Services and Software Evolution"
+            "title": "Web Services and Software Evolution",
+            "img":""
         },
         {
             "name":"Paolo",
             "surname": "Ciancarini",
             "affiliation": "University of Bologna, Italy",
-            "title": "Agent-Oriented Software Engineering"
+            "title": "Agent-Oriented Software Engineering",
+            "img":""
         },
         {
             "name":"Alfonso",
             "surname": "Fuggetta",
             "affiliation": "Polytechnic of Milan, Italy",
-            "title": "Open Source and the Software Industry: Myths and Actual Opportunities"
+            "title": "Open Source and the Software Industry: Myths and Actual Opportunities",
+            "img":""
         },
         {
             "name":"Carlo",
             "surname": "Montangero",
             "affiliation": "University of Pisa, Italy",
-            "title": "UML and Formal System Verification"
+            "title": "UML and Formal System Verification",
+            "img":""
         },
         {
             "name":"Harry",
             "surname": "Sneed",
             "affiliation": "Case Consult GmbH, Germany",
-            "title": "Using XML to Integrate New and Legacy Business Systems"
+            "title": "Using XML to Integrate New and Legacy Business Systems",
+            "img":""
         },
         {
             "name":"Giuseppe",
             "surname": "Visaggio",
             "affiliation": "University of Bari, Italy",
-            "title": "Empirical Experimentation in Software Engineering"
+            "title": "Empirical Experimentation in Software Engineering",
+            "img":""
         }
     ],
     "organization": {

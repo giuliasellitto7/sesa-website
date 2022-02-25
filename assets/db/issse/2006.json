@@ -16,43 +16,50 @@
             "name":"Jan",
             "surname": "Bosch",
             "affiliation": "Nokia Research Center, Finland",
-            "title": "Variability and Composability in Broadening Product Families"
+            "title": "Variability and Composability in Broadening Product Families",
+            "img":""
         },
         {
             "name":"Gerardo",
             "surname": "Canfora",
             "affiliation": "University of Sannio, Italy",
-            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.1"
+            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.1",
+            "img":""
         },
         {
             "name":"Massimiliano",
             "surname": "Di Penta",
             "affiliation": "University of Sannio, Italy",
-            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.2"
+            "title": "Testing Services and Service-Centric Systems: Challenges and Opportunities Pt.2",
+            "img":""
         },
         {
             "name":"Carlo",
             "surname": "Ghezzi",
             "affiliation": "Polytechnic of Milan, Italy",
-            "title": "Evolution of Software Composition Mechanisms"
+            "title": "Evolution of Software Composition Mechanisms",
+            "img":""
         },
         {
             "name":"Mehdi",
             "surname": "Jazayeri",
             "affiliation": "Univ. of Lugano, Switzerland & Technical Univ. of Vienna, Austria",
-            "title": "Software Evolution: Analysis and Visualization"
+            "title": "Software Evolution: Analysis and Visualization",
+            "img":""
         },
         {
             "name":"Hausi",
             "surname": "Mueller",
             "affiliation": "University of Victoria, Canada",
-            "title": "Autonomic Computing: Now You See It, Now You Don't - Design and Evolution of Autonomic Software Systems"
+            "title": "Autonomic Computing: Now You See It, Now You Don't - Design and Evolution of Autonomic Software Systems",
+            "img":""
         },
         {
             "name":"Barbara G.",
             "surname": "Ryder",
             "affiliation": "Rutgers University, USA",
-            "title": "Practical Program Analyses for Software Tools"
+            "title": "Practical Program Analyses for Software Tools",
+            "img":""
         }
     ],
     "organization": {

@@ -16,37 +16,43 @@
             "name":"Bernd",
             "surname": "Bruegge",
             "affiliation": "Technical University of Munich, Germany",
-            "title": "Pattern-Driven Development"
+            "title": "Pattern-Driven Development",
+            "img":""
         },
         {
             "name":"Jacky",
             "surname": "Estublier",
             "affiliation": "French National Research Organisation, France",
-            "title": "Software Configuration Management"
+            "title": "Software Configuration Management",
+            "img":""
         },
         {
             "name":"Anthony",
             "surname": "Finkelstein",
             "affiliation": "University College London, UK",
-            "title": "Software Engineering with Multiple Views"
+            "title": "Software Engineering with Multiple Views",
+            "img":""
         },
         {
             "name":"Harald",
             "surname": "Gall",
             "affiliation": "University of Zurich, Switzerland",
-            "title": "Software Evolution: Analysis and Visualization"
+            "title": "Software Evolution: Analysis and Visualization",
+            "img":""
         },
         {
             "name":"Mauro",
             "surname": "Pezzè",
             "affiliation": "University of Milano-Bicocca, Italy",
-            "title": "Testing Object Oriented Software"
+            "title": "Testing Object Oriented Software",
+            "img":""
         },
         {
             "name":"Giancarlo",
             "surname": "Succi",
             "affiliation": "Free University of Bolzano-Bozen, Italy",
-            "title": "Lean Process Management in Software Engineering"
+            "title": "Lean Process Management in Software Engineering",
+            "img":""
         }
     ],
     "organization": {
