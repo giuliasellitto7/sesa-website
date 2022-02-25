@@ -56,10 +56,99 @@
         }
     ],
     "organization": {
-        "school co-chairs": [
+        "School Director": [
             {
                 "name":"Maurizio",
                 "surname": "Tucci",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "Scientific Committee": [
+            {
+                "name":"Keith",
+                "surname": "Bennett",
+                "affiliation": "University of Durham, UK"
+            },
+            {
+                "name":"Paolo",
+                "surname": "Ciancarini",
+                "affiliation": "University of Bologna, Italy"
+            },
+            {
+                "name":"Gennaro",
+                "surname": "Costagliola",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Andrea",
+                "surname": "De Lucia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Filomena",
+                "surname": "Ferrucci",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Alfonso",
+                "surname": "Fuggetta",
+                "affiliation": "Polytechnic of Milan, Italy"
+            },
+            {
+                "name":"Carlo",
+                "surname": "Ghezzi",
+                "affiliation": "Polytechnic of Milan, Italy"
+            },
+            {
+                "name":"Vincenzo",
+                "surname": "Loia",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Margherita",
+                "surname": "Napoli",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Carlo",
+                "surname": "Montangero",
+                "affiliation": "University of Pisa, Italy"
+            },
+            {
+                "name":"Harry",
+                "surname": "Sneed",
+                "affiliation": "Case Consult GmbH, Germany"
+            },
+            {
+                "name":"Genny",
+                "surname": "Tortora",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Giuseppe",
+                "surname": "Visaggio",
+                "affiliation": "University of Bari, Italy"
+            },
+            {
+                "name":"Giuliana",
+                "surname": "Vitiello",
+                "affiliation": "University of Salerno, Italy"
+            }
+        ],
+        "Scientific Secretariat": [
+            {
+                "name":"Rita",
+                "surname": "Francese",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Giuseppe",
+                "surname": "Scanniello",
+                "affiliation": "University of Salerno, Italy"
+            },
+            {
+                "name":"Monica",
+                "surname": "Sebillo",
                 "affiliation": "University of Salerno, Italy"
             }
         ]
