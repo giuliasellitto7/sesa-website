@@ -56,12 +56,14 @@
         }
     ],
     "organization": {
-        "school co-chairs": [
+        "school director": [
             {
                 "name":"Andrea",
                 "surname": "De Lucia",
                 "affiliation": "University of Salerno, Italy"
-            },
+            }
+        ],
+        "program co-chair": [
             {
                 "name":"Filomena",
                 "surname": "Ferrucci",
