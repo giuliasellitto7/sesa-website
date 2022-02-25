@@ -11,7 +11,7 @@
         "month":9
     },
     "intro":"The fifth edition of the International Summer School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The invited lecturers are internationally recognised research leaders and will cover very relevant topics for the scientific community, including Service-Oriented and Model-based testing, Software Architectures, Reverse Engineering, Collaborative Development, and Mining Software Repositories.The program of the school will aim at creating discussion forums between lecturers and industrial and academic attendees. Submission of student talks and tool demos are also encouraged to further stimulate the discussion.",
-    "lecturers": [
+    "lectures": [
         {
             "name":"Antonia",
             "surname": "Bertolino",

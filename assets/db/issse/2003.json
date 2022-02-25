@@ -11,7 +11,7 @@
         "month":9
     },
     "intro":"The International Summer School on Software Engineering (ISSSE 2003) intends to provide a contribution to PhD students and researchers on latest findings in the field of Software Engineering. The lectures will cover very relevant topics for the scientific community and will encourage discussion forums between lecturers and students. The program of the school includes both traditional and emergent topics of software engineering, ranging from requirement engineering, UML, verification and validation, and software architectures to open source software, empirical software engineering, legacy systems, and software evolution. Topics related to web engineering, web services, and agent-oriented software engineering will also be covered.",
-    "lecturers": [
+    "lectures": [
         {
             "name":"Keith",
             "surname": "Bennett",
@@ -56,14 +56,14 @@
         }
     ],
     "organization": {
-        "School Director": [
+        "school director": [
             {
                 "name":"Maurizio",
                 "surname": "Tucci",
                 "affiliation": "University of Salerno, Italy"
             }
         ],
-        "Scientific Committee": [
+        "scientific committee": [
             {
                 "name":"Keith",
                 "surname": "Bennett",
@@ -135,7 +135,7 @@
                 "affiliation": "University of Salerno, Italy"
             }
         ],
-        "Scientific Secretariat": [
+        "scientific secretariat": [
             {
                 "name":"Rita",
                 "surname": "Francese",

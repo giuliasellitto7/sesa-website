@@ -11,7 +11,7 @@
         "month":9
     },
     "intro":"The second edition of the International School on Software Engineering intends to provide a contribution to PhD students and academic and industrial researchers on latest findings in the field of Software Engineering. The lectures will cover very relevant topics for the scientific community and will encourage discussion forums between lecturers and industrial and academic attendees. The program of the school includes both traditional and emergent topics of software engineering, ranging from Software Evolution, Software Configuration Management, Pattern-Driven Development, and Software Testing.",
-    "lecturers": [
+    "lectures": [
         {
             "name":"Bernd",
             "surname": "Bruegge",
