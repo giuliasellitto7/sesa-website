@@ -2,8 +2,6 @@ TODO colori nuova palette --- refactored style.css fino a un certo punto
 
 TODO issse
 
-TODO about testo giustificato
-
 TODO card del team prendono troppo spazio su mobile
 
 TODO collaborazioni

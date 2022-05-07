@@ -95,22 +95,22 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var();
+  background: var(--sesa-white);
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  border-color: var(--sesa-dark);
+  border-color: var(--sesa-darker);
   border-style: solid;
   border-width: 0.2px;
   transition: all 0.4s;
 }
 .back-to-top i {
   font-size: 24px;
-  color: var(--sesa-dark);
+  color: var(--sesa-darker);
   line-height: 0;
 }
 .back-to-top:hover {
-  background: var(--sesa-dark);
+  background: var(--sesa-darker);
   border-color: var(--sesa-white);
   opacity: 1 !important;
 }
@@ -206,8 +206,8 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: var(--sesa-white);
-  box-shadow: 0px 0px 30px var(--sesa-gray);
+  background: var(--sesa-dark);
+  /*box-shadow: 0px 0px 30px var(--sesa-gray);*/
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -224,7 +224,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: var(--sesa-gray);
+  color: var(--sesa-light-blue);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -255,7 +255,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: white;
+  color: var(--sesa-dark);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -263,7 +263,7 @@ section {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: var(--sesa-white);
 }
 
 @media (max-width: 991px) {
@@ -282,7 +282,8 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(50, 50, 50, 0.9);
+  background: var(--sesa-darker);
+  /*background: rgba(50, 50, 50, 0.9);*/
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -297,22 +298,22 @@ section {
   right: 15px;
   padding: 10px 0;
   border-radius: 5px;
-  background-color: white;
+  background-color: var(--sesa-dark);
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a {
   padding: 10px 40px;
   font-size: 15px;
-  color: black;
+  color: var(--sesa-white);
 }
 .navbar-mobile a:focus {
   padding: 10px 40px;
   font-size: 15px;
-  color: gray;
+  color: var(--sesa-light-blue);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: gray;
+  color: var(--sesa-light-blue);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -325,8 +326,8 @@ section {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: white;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: var(--sesa-dark);
+  /*box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);*/
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -338,7 +339,7 @@ section {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: gray;
+  color: var(--sesa-light-blue);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -431,30 +432,33 @@ section {
 # Education
 --------------------------------------------------------------*/
 .education {
-  background-color: white;
+  padding: 0;
+  background-color: var(--sesa-dark);
 }
 .education .content {
-  background-color: white;
+  background-color: var(--sesa-dark);
   padding: 40px;
 }
 .education h1 {
-  color: black;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 .education h3 {
   font-size: 14px;
   font-weight: 700;
-  color: black;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 .education h2 {
   font-size: 24px;
   font-weight: 700;
-  color: black;
+  color: var(--sesa-white);
 }
 .education p {
+  color: var(--sesa-white);
   margin: 15px 0 30px 0;
   line-height: 24px;
+  text-align: justify;
 }
 .education .btn-read-more {
   text-transform: uppercase;
@@ -462,8 +466,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: black;
+  color: var(--sesa-dark);
+  background: var(--sesa-white);
   box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
 }
 .education .btn-read-more span {
@@ -478,7 +482,7 @@ section {
   transition: 0.3s;
 }
 .education .btn-read-more:hover{
-  background: rgb(50, 50, 50);
+  background: rgb(200, 200, 200);
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -498,22 +502,22 @@ section {
   padding: 40px;
 }
 .issse h1 {
-  color: white;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 .issse h3 {
   font-size: 14px;
   font-weight: 700;
-  color: white;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 .issse h2 {
   font-size: 24px;
   font-weight: 700;
-  color: white;
+  color: var(--sesa-white);
 }
 .issse p {
-  color: white;
+  color: var(--sesa-white);
   margin: 15px 0 30px 0;
   line-height: 24px;
   text-align: justify;
@@ -524,8 +528,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: black;
-  background: white;
+  color: var(--sesa-dark);
+  background: var(--sesa-white);
   box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
 }
 .issse .btn-read-more span {
@@ -1538,7 +1542,7 @@ section {
 # Collaborations
 --------------------------------------------------------------*/
 .clients {
-background-color: var(--sesa-gray);
+background-color: var(--sesa-white);
 color: var(--sesa-dark);
 padding-top: 0;
 }
@@ -2318,4 +2322,67 @@ padding-top: 0;
   text-align: center;
   font-size: 13px;
   color: white;
+}
+
+
+/*--------------------------------------------------------------
+# ISSSE Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Registration
+--------------------------------------------------------------*/
+.registration {
+  background-color: white;
+}
+.registration .content {
+  background-color: white;
+  padding: 40px;
+}
+.registration h1 {
+  color: black;
+  text-transform: uppercase;
+}
+.registration h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+.registration h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+.registration p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+.registration .btn-read-more {
+  text-transform: uppercase;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: black;
+  box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
+}
+.registration .btn-read-more span {
+  font-family: "Axis";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.registration .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.registration .btn-read-more:hover{
+  background: rgb(50, 50, 50);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.education .btn-read-more:hover i {
+  transform: translateX(5px);
 }
