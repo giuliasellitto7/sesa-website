@@ -13,7 +13,8 @@ function fillinfo(jsoninfo) {
     // get all the information and fill the spaces
     // there is a html element with the right style
     // it has to be cloned and filled with info
-    $("#about-issse").append(jsoninfo.intro);
+    $("#issse-about-paragraph").append(jsoninfo.intro);
+    $("#issse-edition-number-span").append(jsoninfo.edition);
 }
 
 

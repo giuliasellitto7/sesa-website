@@ -2811,6 +2811,9 @@ section {
   transform: translateX(5px);
 }
 
+/*--------------------------------------------------------------
+# ISSSE DETAILS PAGE
+--------------------------------------------------------------*/
 .banner {
   padding: 12em 0 10em 0;
   background-image: url(../img/salerno.jpg);
@@ -2819,5 +2822,43 @@ section {
   background-size: cover;
   position: relative;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: soft-light;
   /*border-top: 0.5em solid white;*/
+}
+
+
+.issse-about {
+  padding: 0;
+  background-color: var(--sesa-dark);
+}
+
+.issse-about .content {
+  background-color: var(--sesa-dark);
+  padding: 40px;
+}
+
+.issse-about h1 {
+  color: var(--sesa-white);
+  text-transform: uppercase;
+}
+
+.issse-about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--sesa-white);
+  text-transform: uppercase;
+}
+
+.issse-about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--sesa-white);
+}
+
+.issse-about p {
+  color: var(--sesa-white);
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+  text-align: justify;
 }
