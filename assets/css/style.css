@@ -237,6 +237,8 @@ section {
   /*box-shadow: 0px 0px 30px var(--sesa-gray);*/
   transition: 0.3s;
   border-radius: 4px;
+  max-height: 280px;
+  overflow-y: auto;
 }
 
 .navbar .dropdown ul li {
@@ -293,7 +295,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: var(--sesa-dark);
+  color: var(--sesa-white);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -322,8 +324,8 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: var(--sesa-darker);
-  /*background: rgba(50, 50, 50, 0.9);*/
+  background: rgba(23, 28, 40, 0.8);
+  /*background: var(--sesa-darker); */
   transition: 0.3s;
 }
 
@@ -2746,35 +2748,38 @@ section {
 # Registration
 --------------------------------------------------------------*/
 .registration {
-  background-color: white;
+  padding: 0;
+  background-color: var(--sesa-dark);
 }
 
 .registration .content {
-  background-color: white;
+  background-color: var(--sesa-dark);
   padding: 40px;
 }
 
 .registration h1 {
-  color: black;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 
 .registration h3 {
   font-size: 14px;
   font-weight: 700;
-  color: black;
+  color: var(--sesa-white);
   text-transform: uppercase;
 }
 
 .registration h2 {
   font-size: 24px;
   font-weight: 700;
-  color: black;
+  color: var(--sesa-white);
 }
 
 .registration p {
+  color: var(--sesa-white);
   margin: 15px 0 30px 0;
   line-height: 24px;
+  text-align: justify;
 }
 
 .registration .btn-read-more {
@@ -2783,8 +2788,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: black;
+  color: var(--sesa-dark);
+  background: var(--sesa-white);
   box-shadow: 0px 5px 25px rgba(15, 15, 15, 0.1)
 }
 
@@ -2802,12 +2807,12 @@ section {
 }
 
 .registration .btn-read-more:hover {
-  background: rgb(50, 50, 50);
+  background: rgb(200, 200, 200);
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.education .btn-read-more:hover i {
+.registration .btn-read-more:hover i {
   transform: translateX(5px);
 }
 
@@ -2827,6 +2832,20 @@ section {
   /*border-top: 0.5em solid white;*/
 }
 
+#issse-banner .section-header {
+  padding-bottom: 0;
+}
+
+#issse-banner .section-header h2, h3 {
+  padding-top: 1.5em;
+  padding-bottom: 0;
+  color: var(--sesa-dark);
+}
+
+#issse-banner .section-header a {
+  color: var(--sesa-dark);
+  text-decoration: none;
+}
 
 .issse-about {
   padding: 0;

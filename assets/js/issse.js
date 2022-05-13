@@ -13,28 +13,39 @@ function fillinfo(jsoninfo) {
     // get all the information and fill the spaces
     // there is a html element with the right style
     // it has to be cloned and filled with info
-    $("#issse-about-paragraph").append(jsoninfo.intro);
     $("#issse-edition-number-span").append(jsoninfo.edition);
+    $('#issse-edition-year-span').append(jsoninfo.year);
+    $('#issse-date-span').append(formatdate(jsoninfo.startdate, jsoninfo.enddate));
+    $('#issse-venue-span').append(jsoninfo.venue);
+    $("#issse-about-paragraph").append(jsoninfo.intro);
+    
 }
 
 
 function getyear() {
+    const editions = ["2003", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2019", "2021"];
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('year')) {
-        return urlParams.get('year');
+        var y = urlParams.get('year');
+        if (editions.includes(y)) {
+            return y;
+        }
     }
-    else { // last edition
-        return "2021";
-    }
+    // default page: about last edition
+    return editions[editions.length - 1];
 }
 
 
-/* function (jdata) {
-    console.log(jdata);
-    var str1 = '<div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out" data-aos-delay="700">';
-    var str2 = '<div class="research-box d-flex align-items-center"><h3>';
-    var str3 = '</h3></div></div>';
-    jdata.forEach(function (item, index, array) {
-        $('#topics').append($(str1 + str2 + item["name"][pagelang] + str3));
-    })
-} */
+function formatdate(startdate, enddate) {
+    /* 
+ "startdate": {
+        "day":6,
+        "month":7
+    },
+    "enddate": {
+        "day":15,
+        "month":7
+    },
+    */
+   return "date";
+}
