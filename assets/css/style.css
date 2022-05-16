@@ -759,7 +759,7 @@ section {
 }
 
 .research p {
-  color: black;
+  color: var(--sesa-dark);
 }
 
 .research .research-box {
@@ -2836,7 +2836,8 @@ section {
   padding-bottom: 0;
 }
 
-#issse-banner .section-header h2, h3 {
+#issse-banner .section-header h2,
+h3 {
   padding-top: 1.5em;
   padding-bottom: 0;
   color: var(--sesa-dark);
@@ -2880,4 +2881,62 @@ section {
   margin: 15px 0 30px 0;
   line-height: 24px;
   text-align: justify;
+}
+
+
+/*--------------------------------------------------------------
+# ISSSE Program
+--------------------------------------------------------------*/
+
+.program {
+  /*background: white;*/
+  padding: 60px 0;
+}
+
+.program .row {
+  padding-bottom: 30px;
+}
+
+.program h2 {
+  color: var(--sesa-dark);
+}
+
+.talk-title {
+  font-family: "Axis";
+  text-transform: uppercase;
+  padding-bottom: 0em;
+}
+
+.talk-speaker {
+  padding-bottom: 2em;
+}
+
+
+/*--------------------------------------------------------------
+# ISSSE Organization
+--------------------------------------------------------------*/
+
+.organization {
+  /*background: white;*/
+  background-color: var(--sesa-gray);
+  padding: 60px 0;
+}
+
+.organization .row {
+  padding-bottom: 30px;
+}
+
+.organization h2 {
+  color: var(--sesa-dark);
+}
+
+.organizers-title {
+  font-family: "Axis";
+  text-transform: uppercase;
+  padding-bottom: 0;
+  padding-top: 1em;
+}
+
+.organizers-member {
+  padding-bottom: 0;
 }

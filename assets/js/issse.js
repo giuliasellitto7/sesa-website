@@ -1,30 +1,100 @@
+const editions = ["2021", "2019", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2003"];
+
 $(document).ready(function () {
-    // get ISSSE edition year
-    const year = getyear();
-    $("title").append(" "+year);
-    $("#series-link-"+year).addClass("active");
+    populateseries();
+    year = getyear();
+    $("title").append(" " + year);
+    $("#series-link-" + year).addClass("active");
+    if (year !== "2022") {
+        //if (year !== editions[0]) {
+        $("#registration").remove();
+        $("#registration-menu").remove();
+    }
     // fill page with info about the edition
-    $.getJSON('../assets/db/issse/'+year+'.json', fillinfo);
-    $.getJSON('https://raw.githubusercontent.com/giuliasellitto7/sesa-website/main/assets/db/issse/2021.json', fillinfo);
+    //$.getJSON('https://sesalabunisa.github.io/assets/db/issse/'+year+'.json', fillinfo);
+    $.getJSON('https://raw.githubusercontent.com/giuliasellitto7/sesa-website/main/assets/db/issse/' + year + '.json', fillinfo);
 });
 
 
 function fillinfo(jsoninfo) {
     // get all the information and fill the spaces
     // there is a html element with the right style
-    // it has to be cloned and filled with info
+    // it has to be (optionally cloned and) filled with info
     $("#issse-edition-number-span").append(jsoninfo.edition);
     $('#issse-edition-year-span').append(jsoninfo.year);
-    $('#issse-date-span').append(formatdate(jsoninfo.startdate, jsoninfo.enddate));
+    $('#issse-date-span').append(formatdate(jsoninfo.startdate, jsoninfo.enddate) + " " + jsoninfo.year);
     $('#issse-venue-span').append(jsoninfo.venue);
     $("#issse-about-paragraph").append(jsoninfo.intro);
-    
+    fillprogram(jsoninfo.lectures);
+    fillorganization(jsoninfo.organization);
+    fillsupporters(jsoninfo.supporters);
+}
+
+
+function fillprogram(jsontalks) {
+    div = $("#talk-list");
+    ptitle = div.children(".talk-title")[0];
+    pspeaker = div.children(".talk-speaker")[0];
+    jsontalks.forEach(talk => {
+        newtitle = ptitle.cloneNode(true);
+        newtitle.textContent = talk.title;
+        div.append(newtitle);
+        newspeaker = pspeaker.cloneNode(true);
+        newspeaker.textContent = talk.name + " " + talk.surname + ", " + talk.affiliation;
+        div.append(newspeaker);
+    });
+    ptitle.remove();
+    pspeaker.remove();
+}
+
+
+function fillorganization(jsonorganization) {
+    div = $("#organizers-list");
+    ptitle = div.children(".organizers-title")[0];
+    pmember = div.children(".organizers-member")[0];
+    for (const [key, value] of Object.entries(jsonorganization)) {
+        newtitle = ptitle.cloneNode(true);
+        newtitle.textContent = key;
+        div.append(newtitle);
+        value.forEach(member => {
+            newmember = pmember.cloneNode(true);
+            newmember.textContent = member.name + " " + member.surname + ", " + member.affiliation;
+            div.append(newmember);
+        });
+    }
+    ptitle.remove();
+    pmember.remove();
+}
+
+
+function fillsupporters(jsonsupporters) {
+    div = $("#organizers-list");
+    newtitle = div.children(".organizers-title")[0].cloneNode(true);
+    newtitle.textContent = "Supporters";
+    div.append(newtitle);
+    pmember = div.children(".organizers-member")[0];
+    jsonsupporters.forEach(supporter => {
+        newmember = pmember.cloneNode(true);
+        newmember.textContent = supporter.name;
+        div.append(newmember);
+    });
+}
+
+
+function formatdate(startdate, enddate) {
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    str = "";
+    if (startdate.month == enddate.month) {
+        return str + startdate.day + " - " + enddate.day + " " + months[startdate.month - 1];
+    }
+    else {
+        return str + startdate.day + " " + months[startdate.month - 1] + " - " + enddate.day + " " + months[enddate.month - 1];
+    }
 }
 
 
 function getyear() {
-    const editions = ["2003", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2016", "2017", "2019", "2021"];
-    const urlParams = new URLSearchParams(window.location.search);
+    urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('year')) {
         var y = urlParams.get('year');
         if (editions.includes(y)) {
@@ -32,20 +102,21 @@ function getyear() {
         }
     }
     // default page: about last edition
-    return editions[editions.length - 1];
+    return editions[0];
 }
 
 
-function formatdate(startdate, enddate) {
-    /* 
- "startdate": {
-        "day":6,
-        "month":7
-    },
-    "enddate": {
-        "day":15,
-        "month":7
-    },
-    */
-   return "date";
+function populateseries() {
+    ul = $("#series-dropdown");
+    li = $("#series-li-");
+    editions.forEach(edyear => {
+        newli = li.clone(true);
+        newli.attr("id", newli.attr("id") + edyear);
+        newa = newli.children("a");
+        newa.attr("id", newa.attr("id") + edyear);
+        newa.attr("href", newa.attr("href") + edyear);
+        newa.text(edyear);
+        ul.append(newli);
+    });
+    li.remove();
 }
