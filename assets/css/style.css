@@ -778,6 +778,7 @@ section {
   color: var(--sesa-dark);
   font-weight: 700;
   margin: 0;
+  padding-top: 0px;
 }
 
 .research .research-box i {
@@ -2953,11 +2954,50 @@ h3 {
   min-height: 150px;
 }
 
+.service-box > .read-more {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;
+  margin: 0 auto;
+}
+
 .service-box > .curriculum {
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 12px;
-  font-style: italic;
-  max-width: 250px;
+  bottom: 20px;
+  left: 50px;
+  font-size: 14px; 
+  padding: 5px 10px;
+  border: 2px solid var(--sesa-dark);
+  background-color: var(--sesa-dark); 
+  color: white;
+  border-radius: 8px;
+}
+
+.services .service-box.sesa-blue {
+  border-bottom: 3px solid var(--sesa-blue);
+}
+.services .service-box.sesa-blue .icon {
+  color: var(--sesa-blue);
+  background: var(--sesa-white);
+}
+.services .service-box.sesa-blue .read-more {
+  color: var(--sesa-dark);
+}
+.services .service-box.sesa-blue:hover .read-more {
+  color: var(--sesa-white);
+}
+.services .service-box.sesa-blue:hover {
+  background: var(--sesa-blue);
+}
+.services .service-box.sesa-blue:hover .curriculum {
+  background: var(--sesa-white);
+  color: var(--sesa-dark);
+  border: 2px solid var(--sesa-white);
+}
+
+
+.faq .accordion-button:not(.collapsed) {
+  background: none;
+  color: var(--sesa-blue);
+  border-bottom: 0;
 }
