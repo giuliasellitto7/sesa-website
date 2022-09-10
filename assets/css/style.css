@@ -156,6 +156,7 @@ section {
 
 .header .logo {
   line-height: 0;
+  margin-left: -10px;
 }
 
 .header .logo img {
@@ -1739,9 +1740,13 @@ section {
   transition: 0.3s;
 }
 
-.team .member:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
+
+
+@media screen and (min-width:800px) {
+  .team .member:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
 }
 
 .team .member .member-img {
@@ -3013,4 +3018,47 @@ h3 {
 
 .portfolio {
   background-color: var(--sesa-gray);
+}
+
+.tree1 {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -360px;
+  width: 70px;
+  animation: shake1 4s;
+  animation-iteration-count: infinite;
+}
+
+.tree2 {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 300px;
+  width: 70px;
+  animation: shake2 4s;
+  animation-iteration-count: infinite;
+}
+@media (max-width: 700px) {
+  .tree1 {
+    display: none;
+  }
+  
+  .tree2 {
+    display: none;
+  }
+}
+@keyframes shake1 { 
+  0% { transform: rotate(0deg); }
+  20% { transform:  rotate(-6deg); } 
+  40% { transform:  rotate(6deg); }
+  60% { transform: rotate(-6deg); } 
+  80% { transform:  rotate(6deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes shake2 { 
+  0% { transform: rotate(0deg); }
+  20% { transform:  rotate(6deg); } 
+  40% { transform:  rotate(-6deg); }
+  60% { transform: rotate(6deg); } 
+  80% { transform:  rotate(-6deg); }
+  100% { transform: rotate(0deg); }
 }
